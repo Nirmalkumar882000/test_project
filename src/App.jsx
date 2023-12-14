@@ -1,12 +1,18 @@
 
 import React from 'react'
-import Modals from './componets/Modal/Modals'
+import Models from "./componets/Modal/Modals"
+import Examples from './componets/ScrollView/Examples'
+import Dice from './Dice'
+
 
 function App() {
   return (
-    <div>
-      <Modals/>
-    </div>
+    <>
+    {/* <Models/> */}
+    {/* <Examples/> */}
+    {/* <Example/> */}
+    <Dice/>
+    </>
   )
 }
 
