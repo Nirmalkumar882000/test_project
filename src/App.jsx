@@ -2,7 +2,10 @@
 import React from 'react'
 import Models from "./componets/Modal/Modals"
 import Examples from './componets/ScrollView/Examples'
-import Dice from './Dice'
+
+import DiceGame from './DiceGame'
+import Game from './Game'
+
 
 
 function App() {
@@ -11,7 +14,8 @@ function App() {
     {/* <Models/> */}
     {/* <Examples/> */}
     {/* <Example/> */}
-    <Dice/>
+    {/* <DiceGame/> */}
+    <Game/>
     </>
   )
 }
